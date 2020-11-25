@@ -29,6 +29,12 @@ header .row {
 .jumbotron .row {
   height: 400px;
 }
+
+#partners [class*="col-"] {
+  height: 100px;
+  border: 1px dotted black;
+  background-color: lightcyan;
+}
 /* /DA CANCELLARE */
 
 /* - - HEADER - - */
@@ -39,8 +45,14 @@ header .row {
   background-image: url(../img/bg-home-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 0;
 }
 
 /* - - MAIN - - */
+/* SEZIONE PARTNERS */
+#partners {
+  background-color: #f3f5f9;
+  padding: 50px 20px;
+}
 
 /* - - FOOTER - - */
