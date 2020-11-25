@@ -1,14 +1,33 @@
 /* - - GENERAL - - */
 body {
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 a {
   color: black;
 }
 
+a:active {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
 .btn:hover {
   transition: all 0.3s ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  padding-top: 4px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
 }
 
 /* - - DEBUG - - */
@@ -25,11 +44,6 @@ a {
 }
 
 /* DA CANCELLARE */
-header .row {
-  height: 80px;
-  line-height: 80px;
-}
-
 .jumbotron .row {
   height: 400px;
 }
@@ -71,6 +85,59 @@ header .row {
 /* /DA CANCELLARE */
 
 /* - - HEADER - - */
+header .row {
+  height: 60px;
+  line-height: 60px;
+}
+
+.header_logo img {
+  width: 180px;
+  vertical-align: middle;
+}
+
+.central_nav a,
+.dx_nav a {
+  font-size: 1.2em;
+  margin-right: 15px;
+}
+
+.central_nav a:hover,
+.dx_nav a:hover {
+  text-decoration: none;
+  color: #0069ff;
+}
+
+.dx_nav .btn {
+  margin-bottom: 3px;
+  font-size: 1em;
+  color: #0069ff;
+  border: 1.5px solid #0069ff;
+}
+
+.dx_nav .btn:hover {
+  background-color: #0069ff;
+  color: white;
+}
+
+.dropdown::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+  vertical-align: middle;
+  font-size: 0.8em;
+  margin-left: 2px;
+}
+
+.nav_bar i {
+  color: #0069ff;
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+.nav_bar i:hover {
+  color: #031b4e;
+  cursor: pointer;
+}
 
 /* - - JUMBOTRON - - */
 .jumbotron {

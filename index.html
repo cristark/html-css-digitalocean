@@ -15,27 +15,47 @@
 <body>
     
     <!-- HEADER -->
-    <header class="debug">
+    <header>
         <div class="container">
             <div class="row">
 
                 <!-- Sezione LOGO -->
-                <div class="col-xs-8 col-lg-3">LOGO</div>
+                <div class="header_logo col-xs-8 col-lg-3">
+                    <a href="index.html"><img src="img/digitalocean_logo.webp" alt="Digital Ocean Logo"></a>
+                </div>
 
                 <!-- Sezione MENU PRINICIPALE con NAVBAR da md in giù -->
-                <div class="col-xs-4 col-lg-9">
+                <nav class="col-xs-4 col-lg-9">
                     <div class="row hidden-xs hidden-sm hidden-md">
 
                         <!-- Menù centrale -->
-                        <div class="col-lg-7">MENU 1</div>
+                        <div class="central_nav col-lg-7">
+                            <ul>
+                                <li><a class="dropdown" href="#">Products</a></li>
+                                <li><a href="#">Customers</a></li>
+                                <li><a class="dropdown" href="#">Community</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+
                         <!-- Menù destra -->
-                        <div class="col-lg-5 text-right">MENU 2</div>
+                        <div class="dx_nav col-lg-5 text-right">
+                            <ul>
+                                <li><a href="#">Docs</a></li>
+                                <li><a class="dropdown" href="#">Support</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a class="btn btn-default" href="#" role="button">Sign Up</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="row hidden-lg">
+
                         <!-- Hamburger NAVBAR -->
-                        <div class="col-xs-12">NAVBAR</div>
+                        <div class="nav_bar col-xs-12 text-right">
+                            <i class="fas fa-bars"></i>
+                        </div>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
