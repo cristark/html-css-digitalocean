@@ -106,7 +106,10 @@ header .row {
 
 /* SEZIONE CUSTOMERS */
 #customers {
-  background-image: linear-gradient(#0047c5, #00209a);
+  background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
+  background-color: #031b4e;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 50px 0;
   color: white;
 }
@@ -118,7 +121,9 @@ header .row {
 
 /* SEZIONE CTA - GET STARTED */
 #cta {
-  background-image: linear-gradient(#0047c5, #00209a);
+  background-image: url("https://prismic-io.s3.amazonaws.com/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 60px 0;
   color: white;
 }
@@ -139,8 +144,12 @@ header .row {
 }
 
 #cta .btn:hover {
-  background-color: #006aff;
-  border: 1px solid #006aff;
+  background-color: #010e28;
+  border: 1px solid #010e28;
 }
 
 /* - - FOOTER - - */
+footer {
+  background-color: #010e28;
+  padding: 50px 0;
+}
