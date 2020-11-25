@@ -20,8 +20,27 @@ a {
   margin: 5px 0;
 }
 
-/* - - HEADER - - */
+/* DA CANCELLARE */
 header .row {
   height: 80px;
   line-height: 80px;
 }
+
+.jumbotron .row {
+  height: 400px;
+}
+/* /DA CANCELLARE */
+
+/* - - HEADER - - */
+
+/* - - JUMBOTRON - - */
+.jumbotron {
+  height: 500px;
+  background-image: url(../img/bg-home-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* - - MAIN - - */
+
+/* - - FOOTER - - */
