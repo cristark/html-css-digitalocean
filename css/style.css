@@ -7,6 +7,10 @@ a {
   color: black;
 }
 
+.btn:hover {
+  transition: all 0.3s ease;
+}
+
 /* - - DEBUG - - */
 .debug [class*="col-"] {
   height: 100%;
@@ -110,6 +114,33 @@ header .row {
 /* SEZIONE DEVELOPMENT */
 #development {
   padding: 50px 0;
+}
+
+/* SEZIONE CTA - GET STARTED */
+#cta {
+  background-image: linear-gradient(#0047c5, #00209a);
+  padding: 60px 0;
+  color: white;
+}
+
+#cta h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+#cta a {
+  color: #0069ff;
+  font-weight: 500;
+}
+
+#cta a:hover {
+  color: white;
+}
+
+#cta .btn:hover {
+  background-color: #006aff;
+  border: 1px solid #006aff;
 }
 
 /* - - FOOTER - - */
