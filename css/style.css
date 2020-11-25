@@ -45,7 +45,8 @@ header .row {
 }
 
 #deploy .row:last-child [class*="col-"],
-#design .row:last-child [class*="col-"] {
+#design .row:last-child [class*="col-"],
+#features .row [class*="col-"] {
   height: 400px;
   border: 1px dotted black;
   background-color: lightcyan;
@@ -85,6 +86,11 @@ header .row {
 #design {
   padding: 50px 0;
   background-color: #f3f5f9;
+}
+
+/* SEZIONE FEATURES */
+#features {
+  padding: 50px 0;
 }
 
 /* - - FOOTER - - */
