@@ -1,10 +1,11 @@
 /* - - GENERAL - - */
 body {
   font-family: Helvetica, sans-serif;
+  color: #031b4e;
 }
 
 a {
-  color: black;
+  color: #031b4e;
 }
 
 a:active {
@@ -141,11 +142,89 @@ header .row {
 
 /* - - JUMBOTRON - - */
 .jumbotron {
-  height: 500px;
   background-image: url(../img/bg-home-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.7em;
+}
+
+/* JUMBOTRON FORM NEWSLETTER */
+.jumb_form .form_box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 20px;
+}
+
+.form_box h2:first-child {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.9em;
+  margin-bottom: 0;
+}
+
+.form_box h2:nth-child(2) {
+  color: #0069ff;
+  font-weight: bolder;
+  font-size: 1.9em;
+  margin-top: 10px;
+}
+
+.form_box .form-control {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 5px;
+  box-shadow: none;
+}
+
+.form_box .btn {
+  padding: 5px 16px;
+  font-size: 1em;
+}
+
+.form_box .form_submit {
+  background-color: #0069ff;
+  opacity: 0.5;
+}
+
+.form_box .form_submit:hover {
+  cursor: not-allowed;
+}
+
+.form_box .form_google {
+  font-weight: bold;
+}
+
+.form_box .form_google:hover {
+  background-color: transparent;
+  color: #0069ff;
+  border-color: #0069ff;
+}
+
+.form_box p {
+  font-size: 1em;
+  color: black;
+  margin-top: 20px;
+}
+
+.form_box p a {
+  text-decoration: underline;
+  color: #0069ff;
+}
+
+.form_box p a:hover {
+  color: #031b4e;
 }
 
 /* - - MAIN - - */
