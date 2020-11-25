@@ -35,6 +35,24 @@ header .row {
   border: 1px dotted black;
   background-color: lightcyan;
 }
+
+#deploy .row:first-child [class*="col-"] {
+  height: 100px;
+  border: 1px dotted black;
+  background-color: lightcyan;
+}
+
+#deploy .row:last-child [class*="col-"] {
+  height: 400px;
+  border: 1px dotted black;
+  background-color: lightcyan;
+}
+
+#deploy .row:last-child .row [class*="col-"] {
+  height: 200px;
+  border: 1px dotted black;
+  border: 1px dotted red;
+}
 /* /DA CANCELLARE */
 
 /* - - HEADER - - */
@@ -53,6 +71,11 @@ header .row {
 #partners {
   background-color: #f3f5f9;
   padding: 50px 20px;
+}
+
+/* SEZIONE DEPLOY */
+#deploy {
+  padding: 50px 0;
 }
 
 /* - - FOOTER - - */
