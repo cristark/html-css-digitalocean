@@ -36,13 +36,16 @@ header .row {
   background-color: lightcyan;
 }
 
-#deploy .row:first-child [class*="col-"] {
+#deploy .row:first-child [class*="col-"],
+#design .row:first-child [class*="col-"],
+#design .row:last-child [class*="col-"]:last-child {
   height: 100px;
   border: 1px dotted black;
   background-color: lightcyan;
 }
 
-#deploy .row:last-child [class*="col-"] {
+#deploy .row:last-child [class*="col-"],
+#design .row:last-child [class*="col-"] {
   height: 400px;
   border: 1px dotted black;
   background-color: lightcyan;
@@ -76,6 +79,12 @@ header .row {
 /* SEZIONE DEPLOY */
 #deploy {
   padding: 50px 0;
+}
+
+/* SEZIONE DESIGN */
+#design {
+  padding: 50px 0;
+  background-color: #f3f5f9;
 }
 
 /* - - FOOTER - - */
