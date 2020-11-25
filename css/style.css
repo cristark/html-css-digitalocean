@@ -1,0 +1,27 @@
+/* - - GENERAL - - */
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+}
+
+/* - - DEBUG - - */
+.debug [class*="col-"] {
+  height: 100%;
+  border: 1px dotted black;
+  background-color: lightcyan;
+}
+
+.debug .row .row [class*="col-"] {
+  height: 80%;
+  border: 1px dotted cadetblue;
+  margin: 5px 0;
+}
+
+/* - - HEADER - - */
+header .row {
+  height: 80px;
+  line-height: 80px;
+}
