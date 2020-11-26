@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="40px" viewBox="0 0 34 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>blockstorageicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="99.768%" x2="50%" y2="0.498%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.3" offset="28%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.05" offset="88%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blockstorageicon" transform="translate(1.000000, 1.000000)">
+            <polygon id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero" points="4.225 11.825 4.225 25.55 15.96 32.327 27.695 25.55 27.695 11.825 15.96 5.05"></polygon>
+            <path d="M15.96,9.69 C15.96,9.69 8.84,14.91 8.84,20.24 C8.84,24.1722674 12.0277326,27.36 15.96,27.36 C19.8922674,27.36 23.08,24.1722674 23.08,20.24 C23.08,15.1 15.96,9.69 15.96,9.69 L15.96,9.69 Z" id="Path" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <polygon id="Path" stroke="#120078" stroke-width="2" points="0 9.355 0 28.02 15.96 37.24 31.92 28.02 31.92 9.355 15.96 0.145"></polygon>
+            <path d="M0,9.6 L15.96,18.81 L31.92,9.6 M15.96,18.81 L15.96,37.231" id="Shape" stroke="#0069FF" opacity="0.3"></path>
+        </g>
+    </g>
+</svg>

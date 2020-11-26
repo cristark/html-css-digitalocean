@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="36px" viewBox="0 0 41 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>dropletringicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-0.12%" x2="50%" y2="96.486%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dropletringicon" transform="translate(0.000000, 2.000000)">
+            <path d="M39.9,28.9 C41,26.1 33.7,19.2 22.4,13.6 C11.1,8 2.2,5.7 1.1,8.6" id="Path" stroke="#120078" stroke-width="2"></path>
+            <path d="M1.1,28.9 C1.33226763e-15,26.1 7.3,19.2 18.6,13.6 C29.9,8 38.8,5.7 39.9,8.6" id="Path" stroke="#120078" stroke-width="2"></path>
+            <path d="M20.5,32.8 C13,32.8 6.7,26.7 6.7,19.3 C6.7,7.9 20.5,0.1 20.5,0.1 C20.5,0.1 34.3,8 34.3,19.3 C34.3,26.8 28,32.8 20.5,32.8 Z" id="Path" stroke="#0069FF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M20.5,28.6 C15.3,28.6 10.9,24.4 10.9,19.2 C10.9,11.3 20.5,5.7 20.5,5.7 C20.5,5.7 30.1,11.4 30.1,19.2 C30.1,24.4 25.7,28.6 20.5,28.6 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <path d="M39.9,8.6 C41,11.4 33.7,18.3 22.4,23.9 C11.1,29.5 2.2,31.8 1.1,28.9" id="Path" stroke="#120078" stroke-width="2"></path>
+            <path d="M1.1,8.6 C1.33226763e-15,11.4 7.3,18.3 18.6,23.9 C29.9,29.5 38.8,31.8 39.9,28.9" id="Path" stroke="#120078" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>
