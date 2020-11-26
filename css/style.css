@@ -439,9 +439,26 @@ header .row {
 
 /* SEZIONE FEATURES */
 #features {
-  padding: 50px 0;
+  margin: 50px 0 100px;
 }
 
+.features_tabs {
+  margin-top: 30px;
+}
+
+.features_tabs h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.features_tabs p {
+  color: #5b6987;
+  font-size: 1.1em;
+}
+
+.features_tabs a {
+  font-size: 1.1em;
+}
 /* SEZIONE CUSTOMERS */
 #customers {
   background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
