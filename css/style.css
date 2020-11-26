@@ -386,7 +386,8 @@ header .row {
   padding: 0 50px;
 }
 
-.design_img::before {
+.design_img::before,
+.story_box::before {
   content: "\f053";
   display: block;
   position: absolute;
@@ -399,7 +400,8 @@ header .row {
   color: #5b69878e;
 }
 
-.design_img::after {
+.design_img::after,
+.story_box::after {
   content: "\f054";
   display: block;
   position: absolute;
@@ -505,7 +507,99 @@ header .row {
 
 /* SEZIONE DEVELOPMENT */
 #development {
+  background-color: #f3f5f9;
   padding: 50px 0;
+}
+
+#development h2 {
+  margin-bottom: 100px;
+}
+
+.text_story_box {
+  background-color: #fff;
+  padding: 80px 50px;
+  margin-bottom: 20px;
+}
+
+.story_box img {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.story_box::before {
+  content: "\f053";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3em;
+  color: #5b69878e;
+}
+
+.story_box::after {
+  content: "\f054";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3em;
+  color: #031b4e;
+  cursor: pointer;
+}
+
+.text_story_box .quote_text {
+  color: #5b6987;
+  font-size: 1.8em;
+}
+
+.text_story_box .quote_text::before {
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1.2em;
+  padding-right: 10px;
+  color: #5b69878e;
+  vertical-align: super;
+}
+
+.text_story_box .quote_text::after {
+  content: "\f10e";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.8em;
+  vertical-align: super;
+  margin-right: 10px;
+  color: #5b69878e;
+  padding-left: 10px;
+}
+
+.text_story_box > :nth-child(3) {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.text_story_box > :nth-child(4) {
+  margin-bottom: 30px;
+}
+
+.text_story_box > :nth-child(5) {
+  font-size: 1.2em;
+}
+
+/* media sezione DEVELOPMENT */
+@media screen and (max-width: 768px) {
+  .story_box::before,
+  .story_box::after {
+    display: none;
+  }
 }
 
 /* SEZIONE CTA - GET STARTED */
