@@ -42,7 +42,7 @@ li {
   display: inline-block;
 }
 
-.mtb_0 {
+.mtb_20 {
   margin: 20px 0;
 }
 
@@ -85,11 +85,6 @@ li {
 
 .ibox-200 [class*="col-"] {
   height: 200px;
-  border: 1px dotted black;
-  border: 1px dotted red;
-}
-
-#customers .row .row [class*="col-"] {
   border: 1px dotted black;
   border: 1px dotted red;
 }
@@ -459,14 +454,53 @@ header .row {
 .features_tabs a {
   font-size: 1.1em;
 }
+
 /* SEZIONE CUSTOMERS */
 #customers {
   background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
   background-color: #031b4e;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px 0;
+  padding: 50px 0 80px;
   color: white;
+}
+
+#customers .row [class*="col-"] {
+  padding: 5px 30px 0;
+}
+
+#customers .row [class*="col-"] .row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.destination {
+  color: #5b6987;
+}
+
+.code {
+  font-weight: bold;
+}
+
+#customers .container .row [class*="col-"] .row [class*="col-"]:last-child {
+  padding: 5px 10px 0 20px;
+}
+
+#customers .row [class*="col-"] .row a {
+  color: #00d7d2;
+  font-weight: 500;
+}
+
+#customers .row [class*="col-"] .row a::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+
+#customers .row [class*="col-"] .row a:hover {
+  color: #0069ff;
+  text-decoration: none;
 }
 
 /* SEZIONE DEVELOPMENT */
