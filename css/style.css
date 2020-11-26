@@ -5,6 +5,10 @@ body {
 }
 
 a {
+  color: #0069ff;
+}
+
+a:hover {
   color: #031b4e;
 }
 
@@ -31,6 +35,10 @@ li {
   display: inline-block;
 }
 
+.mtb_0 {
+  margin: 20px 0;
+}
+
 /* - - DEBUG - - */
 .debug [class*="col-"] {
   height: 100%;
@@ -42,11 +50,6 @@ li {
   height: 80%;
   border: 1px dotted cadetblue;
   margin: 5px 0;
-}
-
-/* DA CANCELLARE */
-.jumbotron .row {
-  height: 400px;
 }
 
 .box-100 [class*="col-"] {
@@ -83,7 +86,7 @@ li {
   border: 1px dotted black;
   border: 1px dotted red;
 }
-/* /DA CANCELLARE */
+/* /DEBUG */
 
 /* - - HEADER - - */
 header .row {
@@ -220,18 +223,44 @@ header .row {
 
 .form_box p a {
   text-decoration: underline;
-  color: #0069ff;
 }
 
-.form_box p a:hover {
-  color: #031b4e;
+/* Jumbotron media */
+@media screen and (max-width: 1200px) {
+  .jumb_text h1 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .jumb_text h1 {
+    font-size: 3.5em;
+  }
+
+  .jumb_text p {
+    font-size: 1.4em;
+  }
 }
 
 /* - - MAIN - - */
 /* SEZIONE PARTNERS */
 #partners {
   background-color: #f3f5f9;
-  padding: 50px 20px;
+  padding: 50px 20px 30px;
+}
+
+#partners [class*="col-"] {
+  margin: 30px 0;
+}
+
+#partners img {
+  width: 95%;
+  vertical-align: middle;
+}
+
+#partners h4 {
+  color: #5b6987;
+  font-weight: bold;
 }
 
 /* SEZIONE DEPLOY */
