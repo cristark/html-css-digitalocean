@@ -366,6 +366,7 @@ header .row {
   font-size: 1em;
 }
 
+/* Sezione DEPLOY media */
 @media screen and (max-width: 768px) {
   #deploy .main_deploy {
     padding: 0 15px;
@@ -376,6 +377,64 @@ header .row {
 #design {
   padding: 50px 0;
   background-color: #f3f5f9;
+}
+
+.design_text p {
+  font-size: 1.6em;
+  color: #5b6987;
+  margin-bottom: 50px;
+}
+
+.design_img img {
+  width: 100%;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.design_img::before {
+  content: "\f053";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3em;
+  color: #5b69878e;
+}
+
+.design_img::after {
+  content: "\f054";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3em;
+  color: #031b4e;
+  cursor: pointer;
+}
+
+.design_img p {
+  color: #031b4e;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.dot_pages {
+  color: #0069ff;
+}
+
+/* media sezione DESIGN */
+@media screen and (max-width: 768px) {
+  .design_img::before,
+  .design_img::after {
+    display: none;
+  }
 }
 
 /* SEZIONE FEATURES */
