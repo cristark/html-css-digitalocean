@@ -698,3 +698,67 @@ footer a:hover {
   color: white;
   text-decoration: none;
 }
+
+/* Shark BOT */
+.shark_bot {
+  width: 70px;
+  height: 70px;
+  background-color: #0069ff;
+  border-radius: 10px;
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.push_notify {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(40%, -40%);
+  background-color: red;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  border: 5px solid white;
+  line-height: 25px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: white;
+}
+
+.shark_bot img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.chat_bot {
+  width: 350px;
+  background-color: #fff;
+  position: fixed;
+  right: 125px;
+  bottom: 30px;
+  height: 70px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 14px;
+  line-height: 1.2em;
+  opacity: 0;
+}
+
+.shark_bot:hover + .chat_bot {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.chat_bot::after {
+  content: "\f0da";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5em;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  right: -8px;
+}
