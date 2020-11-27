@@ -25,9 +25,7 @@ a:focus {
   text-decoration: none;
 }
 
-.my_btn:hover,
-.my_btn:focus,
-.my_btn:active {
+.my_btn {
   transition: all 0.3s ease;
 }
 
@@ -44,6 +42,10 @@ li {
 
 .mtb_20 {
   margin: 20px 0;
+}
+
+.pt-3 {
+  padding-top: 3px;
 }
 
 /* - - DEBUG - - */
@@ -287,6 +289,7 @@ header {
 #partners h4 {
   color: #5b6987;
   font-weight: bold;
+  margin-bottom: 30px;
 }
 
 /* Media sezione Partners */
@@ -737,6 +740,7 @@ footer a:hover {
 .chat_bot {
   width: 350px;
   background-color: #fff;
+  box-shadow: 0 0 1px #010e28;
   position: fixed;
   right: 125px;
   bottom: 30px;
@@ -745,12 +749,12 @@ footer a:hover {
   font-size: 1.2em;
   padding: 14px;
   line-height: 1.2em;
+  transition: all 0.3s ease;
   opacity: 0;
 }
 
 .shark_bot:hover + .chat_bot {
   opacity: 1;
-  transition: all 0.3s ease;
 }
 
 .chat_bot::after {
