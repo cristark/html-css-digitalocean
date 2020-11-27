@@ -636,5 +636,59 @@ header .row {
 /* - - FOOTER - - */
 footer {
   background-color: #010e28;
-  padding: 50px 0;
+  padding: 60px 0;
+}
+
+footer .footer_copy img {
+  margin-bottom: 10px;
+}
+
+footer .footer_copy p {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin: 0;
+}
+
+footer .footer_copy :nth-child(2) {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+footer .footer_copy :nth-child(3) a {
+  font-size: 1.1em;
+}
+
+footer .footer_copy :nth-child(3) img {
+  width: 15px;
+  vertical-align: text-top;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer_copy i {
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.block li {
+  display: block;
+  margin-bottom: 7px;
+}
+
+footer h3 {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+footer a {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
 }
